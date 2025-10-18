@@ -1,0 +1,24 @@
+# Compiled class files
+*.class
+
+# Eclipse / IntelliJ / VS Code project files
+*.classpath
+*.project
+*.settings/
+*.idea/
+*.vscode/
+
+# Mac / Windows hidden files
+.DS_Store
+Thumbs.db
+
+# Build folders
+bin/
+out/
+build/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
