@@ -22,6 +22,7 @@ A basic Java calculator demonstrating **object creation** and **method usage** i
    java CalculatorMain
 
 
+IT PERFORMS ONLY Addtion,Subtraction,Multiplication,Division only 
 
 SimpleCalculator/
  ├── src/
