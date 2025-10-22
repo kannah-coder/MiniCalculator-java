@@ -1,28 +1,25 @@
-# 🧮 Simple Calculator (Java Project)
+ # Java Calculator
 
-A basic Java calculator demonstrating **object creation** and **method usage** in an object-oriented way.
+## Overview
+This is a simple **Java Calculator** program that allows users to perform various arithmetic operations. It supports **basic operations** as well as some **advanced functions** like power, square root, and factorial.
 
-## ⚙️ Features
-- Addition
-- Subtraction
-- Multiplication
-- Division (with zero-check)
+---
 
-## 🧠 Concepts Used
-- Classes and Objects
-- Methods
-- Switch-case statements
-- Scanner for user input
+## Features
+- Addition (`+`)
+- Subtraction (`-`)
+- Multiplication (`*`)
+- Division (`/`)
+- Modulus (`%`)
+- Power (`^`)
+- Square Root (`√`)
+- Factorial (`!`)  
 
-## 🚀 How to Run
-1. Open the folder in VS Code or any Java IDE.
-2. Compile and run:
-   ```bash
-   javac Calculator.java CalculatorMain.java
-   java CalculatorMain
+The program handles invalid inputs such as division by zero or negative numbers for square roots and factorials.
 
+---
 
-IT PERFORMS ONLY Addtion,Subtraction,Multiplication,Division only 
+ 
 
 SimpleCalculator/
  ├── src/
