@@ -19,11 +19,31 @@ The program handles invalid inputs such as division by zero or negative numbers 
 
 ---
 
+
+# Menu-Driven Calculator
+
+A simple **Java console-based calculator** that allows the user to perform basic operations using a menu system. This program demonstrates the use of **loops**, **switch statements**, and **if conditions** in Java.
+
+---
+
+## **Features**
+- Addition, Subtraction, Multiplication, and Division
+- Check if a number is Even or Odd
+- Prevents division by zero
+- Menu repeats until user chooses to exit
+
+---
+
+ 
+ 
  
 
 SimpleCalculator/
  ├── src/
  │    ├── Calculator.java
  │    ├── CalculatorMain.java
+ ├── MenuCalculator.java
  ├── README.md
  └── .gitignore
+
+
