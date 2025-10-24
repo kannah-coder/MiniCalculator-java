@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class MenuCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -13,7 +12,8 @@ public class MenuCalculator {
             System.out.println("3. Multiply");
             System.out.println("4. Divide");
             System.out.println("5. Check Even or Odd");
-            System.out.println("6. Exit");
+            System.out.println("6. power of n");
+            System.out.println("7. Exit");
             System.out.print("Enter your choice: ");
             
             int choice = sc.nextInt();
@@ -67,6 +67,14 @@ public class MenuCalculator {
                     break;
 
                 case 6:
+                    System.out.println("Enter the number :");
+                    double n1=sc.nextDouble();
+                    System.out.println("Enter the power n");
+                    double n2=sc.nextDouble();
+                    System.out.println(Math.pow(n1,n2));
+                    break;
+
+                case 7:
                     System.out.println("Exiting...");
                     exit = true; // breaks the loop
                     break;
