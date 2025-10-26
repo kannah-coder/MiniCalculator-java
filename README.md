@@ -2,7 +2,6 @@
 
 ## Overview
 This is a simple **Java Calculator** program that allows users to perform various arithmetic operations. It supports **basic operations** as well as some **advanced functions** like power, square root, and factorial.
-
 ---
 
 ## Features
@@ -18,8 +17,6 @@ This is a simple **Java Calculator** program that allows users to perform variou
 The program handles invalid inputs such as division by zero or negative numbers for square roots and factorials.
 
 ---
-
-
 # Menu-Driven Calculator
 
 A simple **Java console-based calculator** that allows the user to perform basic operations using a menu system. This program demonstrates the use of **loops**, **switch statements**, and **if conditions** in Java.
@@ -28,7 +25,6 @@ The methods in this calculator is additon,subtraction,multiplication,divison,mod
 
 
 ---
-
 ## **Features**
 - Addition, Subtraction, Multiplication, and Division
 - Check if a number is Even or Odd
@@ -45,8 +41,9 @@ SimpleCalculator/
  ├── src/
  │    ├── Calculator.java
  │    ├── CalculatorMain.java
- ├── MenuCalculator.java
+ 
  ├── README.md
  └── .gitignore
+ ├── MenuCalculator.java
 
 
